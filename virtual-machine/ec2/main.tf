@@ -44,7 +44,7 @@ resource "aws_iam_instance_profile" "ec2_profile" {
 }
 
 resource "aws_instance" "ec2_instance" {
-  ami = "ami-0525b93bd21404da5"
+  ami = "ami-0bb3fad3c0286ebd5"
   instance_type = "t2.micro"
 
   security_groups = "${var.security_groups}"
