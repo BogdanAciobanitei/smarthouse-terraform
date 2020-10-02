@@ -12,7 +12,7 @@ resource "aws_lambda_function" "events_handler" {
   source_code_hash = "${filebase64sha256("${data.archive_file.events_handler.output_path}")}"
   layers = [
   ]
-  runtime = "nodejs8.10"
+  runtime = "nodejs12.x"
 
   environment {
     variables = {
