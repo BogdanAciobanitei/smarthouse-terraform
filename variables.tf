@@ -31,7 +31,7 @@ variable "infrastructure_branch" {
   default = "master"
 }
 variable "git_token" {
-  default = "603a96beac8b535444e4efff40576ec82b8e22cb"
+  default = "53dae8a3110742268f89d1515f626de944af5b39"
 }
 variable "vpc_id" {
   default = "vpc-fe77ba87"
